@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/ifeoluwa.dev/static/css/main.073c9b0a.css",
-    "main.js": "/ifeoluwa.dev/static/js/main.66c6733e.js",
+    "main.css": "/ifeoluwa.dev/static/css/main.386872b3.css",
+    "main.js": "/ifeoluwa.dev/static/js/main.cfcdeb1b.js",
     "static/js/787.93b14332.chunk.js": "/ifeoluwa.dev/static/js/787.93b14332.chunk.js",
-    "static/media/logo.svg": "/ifeoluwa.dev/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/ifeoluwaDev.png": "/ifeoluwa.dev/static/media/ifeoluwaDev.79e44771302d1731c354.png",
+    "static/media/ResumePDF.pdf": "/ifeoluwa.dev/static/media/ResumePDF.bfbdd8b24b161c1a816b.pdf",
     "index.html": "/ifeoluwa.dev/index.html",
-    "main.073c9b0a.css.map": "/ifeoluwa.dev/static/css/main.073c9b0a.css.map",
-    "main.66c6733e.js.map": "/ifeoluwa.dev/static/js/main.66c6733e.js.map",
+    "main.386872b3.css.map": "/ifeoluwa.dev/static/css/main.386872b3.css.map",
+    "main.cfcdeb1b.js.map": "/ifeoluwa.dev/static/js/main.cfcdeb1b.js.map",
     "787.93b14332.chunk.js.map": "/ifeoluwa.dev/static/js/787.93b14332.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.66c6733e.js"
+    "static/css/main.386872b3.css",
+    "static/js/main.cfcdeb1b.js"
   ]
 }
