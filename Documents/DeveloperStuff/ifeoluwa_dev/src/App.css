@@ -1,0 +1,101 @@
+/* MAIN CSS */
+body {
+  height:100%; 
+  width: 100%;
+  background-color: black;
+  
+}
+
+.App {
+  text-align: center;
+  background-color: black;
+  align-items: center;
+  color: white;
+  /* overflow-y: auto; */
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    /* animation: App-logo-spin infinite 20s linear; */
+  }
+}
+
+/* LANDING PAGE */
+.head-shot {
+  max-width: 20%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.my-description {
+  /* width: 100%;
+  height: 100%; */
+  /* background-color: yellow;
+  margin-left: -50px; */
+}
+
+.my-name {
+  /* max-width: 100%;
+  height: auto; */
+  /* border-radius: 8px; */
+  /* margin-left: 40%;
+  margin-bottom: 30%; */
+}
+
+.soft-engine {
+  /* max-width: 40%;
+  height: auto; */
+  /* border-radius: 8px;
+  margin-right: 70%; */
+}
+
+.catchy-headline {
+  /* max-width: 40%;
+  height: auto; */
+  /* border-radius: 8px;
+  margin-right: 70%; */
+}
+
+/* NAVIGATION */
+#nav-container {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  margin-left: 3%;
+}
+
+nav {
+  overflow: hidden;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  /* font-size: 20px; */
+  background-color: black;
+}
+
+nav a {
+  float: left;
+  display:block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 22px;
+}
+
+nav a:hover {
+  background: black;
+  color: white;
+}
+
+/*
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
