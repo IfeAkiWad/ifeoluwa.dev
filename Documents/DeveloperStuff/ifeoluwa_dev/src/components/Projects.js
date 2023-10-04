@@ -1,6 +1,5 @@
 import React from 'react'
 import HairxImage from '../HairxImage.png'
-// import Video from './Video'
 
 const Projects = () => {
   return (

@@ -1,6 +1,7 @@
 /* MAIN CSS */
 body {
   background-color: black;
+  
 }
 
 html, body {
@@ -8,49 +9,38 @@ html, body {
   width: 100%;
 }
 
-ul {
+button {
+  background-color: rgb(66, 110, 110);
+  color: orange;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border: none;
   
 }
 
-/* button {
-  display: inline-block;
-  border-radius: 4px;
-  background-color: white;
-  border: none;
-  color: black;
-  text-align: center;
-  font-size: 100%;
-  padding: 100%;
-  width: 200%;
-  transition: all 0.5s;
-  cursor: pointer;
-  margin-top: 100%;
-} */
+button:hover {
+  background-color: rgba(255, 166, 0, 0.86); /* Green */
+  color: rgb(66, 110, 110);
+}
 
-/* button span {
-  cursor:pointer;
-  display: inline-block;
+.video-responsive {
+  overflow: hidden;
+  padding-bottom: 0%;
   position: relative;
-  transition: 0.5s;
+  height: 0;
 }
 
-button span:after {
-  content: '\00bb';
-  position: absolute;
-  opacity: 0;
+.video-responsive iframe {
+  left: 0;
   top: 0;
-  right: -20px;
-  transition: 0.5s;
+  height: 100%;
+  width: 100%;
+  position: absolute;
 }
 
-button:hover span {
-  padding-right: 25px;
-}
-
-button:hover span:after {
-  opacity: 1;
-  right: 0;
-} */
 
 .App {
   text-align: center;
@@ -59,34 +49,25 @@ button:hover span:after {
   color: white;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    /* animation: App-logo-spin infinite 20s linear; */
-  }
+/* LANDING PAGE */
+#landing {
+display:flex;
+
 }
 
-/* LANDING PAGE */
 .head-shot {
-  max-width: 20%;
-  height: auto;
-  border-radius: 8px;
-  margin-top: 5%
+  max-width: 305px;
+  /* height: auto; */
+  border-radius: 50%;
+  border-style: solid;
+  border-color: orange;
+  margin-top: 10%;
+  margin-right: 2%;
+  margin-left: 25%;
 }
 
 .my-description {
- 
-}
-
-.my-name {
- 
-}
-
-.soft-engine {
-
-}
-
-.catchy-headline {
-
+ margin-top: 60%;
 }
 
 /* ABOUT */
@@ -105,6 +86,8 @@ button:hover span:after {
   width: 37%;
   height: auto;
   line-height: 1.8;
+  border-style: inset;
+  border-color: rgba(255, 166, 0, 0.86);
 }
 
 /* PROJECTS */
@@ -161,9 +144,11 @@ button:hover span:after {
   justify-content: flex-start;
   flex-direction: row;
   overflow-y:hidden; 
-  /* background-color: azure; */
+  background-color: white;
   padding: 1%;
   /* border-radius: ; */
+  border-color: grey;
+  border-style: inset;
 }
 
 .project-video-heading, .personal-team-projects-heading {
@@ -251,8 +236,47 @@ nav.top-nav .landing-link {
   margin-right: 5%;
 }
 
+/* FOOTER */
+footer {
+  display: flex;
+  align-items: end;
+  /* position: fixed; */
+  /* margin-top: 205%; */
+}
+
+#contact-container ul{
+  display: flex;
+  margin-top: 5%;
+  list-style-type: none;
+}
 
 
+.github-icon{
+  background-color: black;
+  padding: 10%;
+ }
+
+ .icon-1 {
+  size-adjust: 0%;
+ } 
+ 
+ .linkedin-icon {
+   background-color: black;
+   padding: 10%;
+ }
+
+ .icon-2 {
+
+ }
+ 
+ .email-icon {
+   background-color: black;
+   padding: 10%;
+ }
+
+ .icon-3 {
+
+ }
 /* @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
