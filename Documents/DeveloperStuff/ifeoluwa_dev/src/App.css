@@ -21,6 +21,22 @@ button {
   
 }
 
+/* unvisited link */
+a:link {
+  color: rgba(255, 166, 0, 0.86);
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: rgba(255, 166, 0, 0.86);
+}
+
+/* mouse over link */
+a:hover {
+  color: rgb(66, 110, 110);
+}
+
 button:hover {
   background-color: rgba(255, 166, 0, 0.86); /* Green */
   color: rgb(66, 110, 110);
@@ -70,7 +86,7 @@ display:flex;
  margin-top: 60%;
 }
 
-/* ABOUT */
+/* ABOUT/GOALS */
 #about-container{
   margin-top: 10%;
   /* display: flex; */
@@ -80,7 +96,7 @@ display:flex;
   /* align-content:space-around; */
 }
 
-.about-me {
+.about-me, .goal-description {
   padding: 2%;
   margin-left: 30%;
   width: 37%;
@@ -89,6 +105,8 @@ display:flex;
   border-style: inset;
   border-color: rgba(255, 166, 0, 0.86);
 }
+
+
 
 /* PROJECTS */
 
@@ -144,18 +162,22 @@ display:flex;
   justify-content: flex-start;
   flex-direction: row;
   overflow-y:hidden; 
-  background-color: white;
+  background-color: black;
   padding: 1%;
   /* border-radius: ; */
   border-color: grey;
   border-style: inset;
 }
 
+#personal-team-projects-container {
+  background-color: black;
+}
+
 .project-video-heading, .personal-team-projects-heading {
   text-align: center;
 }
 
-.project-video-description, .personal-team-project-description {
+.project-video-description, .personal-team-project-description, .goal-description {
   /* text-align: center; */
   white-space: wrap;
   /* width: 40%;
