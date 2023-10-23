@@ -1,7 +1,5 @@
 import React from "react";
 import ifeoluwaDev from '../ifeoluwaDev.png'
-import Contact from "./Contact";
-// import Links from "./Links";
 
 const Landing = () => {
   return (
@@ -22,8 +20,6 @@ const Landing = () => {
           </div>
           
       </div>
-        {/* <Contact /> */}
-      
     </div>
   )
 }
