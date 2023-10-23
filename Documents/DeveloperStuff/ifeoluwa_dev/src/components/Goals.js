@@ -3,7 +3,7 @@ import React from 'react'
 const Goals = () => {
   return (
     <div id='goal-container'>
-        <h3>My Goals</h3>
+        <h1>My Goals</h1>
         <p className=''>
         Here's a snapshot of my current goals:
         </p>

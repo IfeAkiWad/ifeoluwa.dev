@@ -21,7 +21,7 @@ const App = () => {
         </Router>
         {/* <footer> */}
         {/* <Contact /> */}
-      {/* </footer> */}
+        
     </div>
   );
 }

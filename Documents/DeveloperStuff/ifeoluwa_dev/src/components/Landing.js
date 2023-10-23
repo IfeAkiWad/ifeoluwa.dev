@@ -17,6 +17,9 @@ const Landing = () => {
           <div>
             <p className="catchy-headline">Ruby & JavaScript Enthusiast with a Passion for Crafting React Front-Ends</p>
           </div>
+          <div id='email'>
+            <a href='mailto: ifeoluwa.akinremi.wade@gmail.com'><button>Contact me</button></a>
+          </div>
           
       </div>
         {/* <Contact /> */}

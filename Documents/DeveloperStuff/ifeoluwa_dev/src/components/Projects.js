@@ -1,5 +1,6 @@
 import React from 'react'
 import HairxImage from '../HairxImage.png'
+import Durante from '../Durante.png'
 
 const Projects = () => {
   return (
@@ -47,11 +48,13 @@ const Projects = () => {
       </section>
       <section className='post-Flatiron'>
         <h2 className='personal-team-projects-heading'>Post-Flatiron School Projects</h2>
-        <p className='personal-team-project-description'>These are projects I embarked on after graduating the Flatiron School Software Engineering program.<br />(from right to left, oldest to recent) The very first project I immersed myself in entailed working on a production team remotely. <br />My most recent and current project is a mock haircare web app that  will feature hair product subscription.</p>
+        <p className='personal-team-project-description'>These are projects I embarked on after graduating the Flatiron School Software Engineering program.<br />(from right to left, oldest to recent) The very first project (Durante) I immersed myself in, entailed working on a production team remotely. <br />My most recent and current project is a mock haircare web app that  will feature hair product subscription.</p>
         <div id='personal-team-projects-container'>
-          <img src={HairxImage} className='HaiRx-image' alt='hair webapp image' />
+          <img src={HairxImage} className='HaiRx-image' alt='hair webapp image'/>
+          <img src={Durante} className='durante-image' alt='durante web app image'/>
         </div>
       </section>   
+      <footer> 2023. Coded in Visual Studio Code. Built with React.js and vanilla CSS, deployed with github-pages.</footer>
     </div>
   )
 }
