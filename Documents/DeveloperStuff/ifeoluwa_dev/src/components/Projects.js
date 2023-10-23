@@ -48,7 +48,7 @@ const Projects = () => {
       </section>
       <section className='post-Flatiron'>
         <h2 className='personal-team-projects-heading'>Post-Flatiron School Projects</h2>
-        <p className='personal-team-project-description'>These are projects I embarked on after graduating the Flatiron School Software Engineering program.<br />(from right to left, oldest to recent) The very first project (Durante) I immersed myself in, entailed working on a production team remotely. <br />My most recent and current project is a mock haircare web app that  will feature hair product subscription.</p>
+        <p className='personal-team-project-description'>These are projects I embarked on after graduating the Flatiron School Software Engineering program.<br />(from right to left, oldest to recent) The very first project (<a href='https://github.com/chingu-voyages/v38-toucans-team-01be'>Durante</a>) I immersed myself in, entailed working on a production team remotely. <br />My most recent and current project (<a href='https://github.com/IfeAkiWad/HaiRx_FE/tree/main'>HaiRx</a>) is a mock haircare web app that  will feature hair product subscription.</p>
         <div id='personal-team-projects-container'>
           <img src={HairxImage} className='HaiRx-image' alt='hair webapp image'/>
           <img src={Durante} className='durante-image' alt='durante web app image'/>
