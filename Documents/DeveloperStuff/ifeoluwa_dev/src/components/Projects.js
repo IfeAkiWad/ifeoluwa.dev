@@ -5,6 +5,7 @@ import Durante from '../Durante.png'
 const Projects = () => {
   return (
     <div id='project-container'>
+      <h1>Projects</h1>
       {/* <h1>Hello projects</h1> */}
       <section className='Flatiron'>
         <h2 className='project-video-heading'>Flatiron School Projects</h2>

@@ -82,7 +82,6 @@ font-weight: 600;
 
 .head-shot {
   max-width: 305px;
-  /* height: auto; */
   border-radius: 50%;
   border-style: solid;
   border-color: orange;
@@ -98,11 +97,6 @@ font-weight: 600;
 /* ABOUT/GOALS */
 #about-container{
   margin-top: 10%;
-  /* display: flex; */
-  /* flex-direction: row; */
-  /* flex-wrap: wrap; */
-  /* justify-content: flex-start; */
-  /* align-content:space-around; */
 }
 
 .about-me {
@@ -123,49 +117,12 @@ font-weight: 600;
 
 /* PROJECTS */
 
-/*.active.fade-left {
-  animation: fade-left 1s ease-in;
-}
-.active.fade-right {
-  animation: fade-right 1s ease-in;
-} */
-
-/* @keyframes fade-bottom {
-  0% {
-    transform: translateY(50px);
-    opacity: 0;
-  }
-  100% {
-    transform: translateY(0);
-    opacity: 1;
-  }
-}
-@keyframes fade-left {
-  0% {
-    transform: translateX(-100px);
-    opacity: 0;
-  }
-  100% {
-    transform: translateX(0);
-    opacity: 1;
-  }
-}
-@keyframes fade-right {
-  0% {
-    transform: translateX(100px);
-    opacity: 0;
-  }
-  100% {
-    transform: translateX(0);
-    opacity: 1;
-  }
-} */
-
 #project-container {
-  margin-top: 10%;
+  /* margin-top: 0%; */
   display: flex;
   flex-direction: column;
   align-content: space-around;
+  padding: 10%
 }
 
 #video-container, #personal-team-projects-container {
@@ -175,10 +132,10 @@ font-weight: 600;
   flex-direction: row;
   overflow-y:hidden; 
   background-color: black;
-  padding: 1%;
-  /* border-radius: ; */
+  padding: 2%;
   border-color: grey;
   border-style:outset;
+
 }
 
 #personal-team-projects-container {
@@ -190,12 +147,11 @@ font-weight: 600;
 }
 
 .project-video-description, .personal-team-project-description, .goal-description {
-  /* text-align: center; */
   white-space: wrap;
-  /* width: 40%;
-  height: auto; */
   align-self: center;
   line-height: 1.8;
+  border-style: inset;
+  border-color: rgba(255, 166, 0, 0.86);
 }
 
 .project-video-description, .personal-team-project-description {
@@ -246,8 +202,8 @@ video {
 
 nav.top-nav {
   overflow: hidden;
-  position: fixed; /* Set the navbar to fixed position */
-  top: 0; /* Position the navbar at the top of the page */
+  position: fixed; /*Set the navbar to fixed position */
+  top: 0; /*Position the navbar at the top of the page*/ 
   width: 100%; /* Full width */
   background-color: black;
   list-style-type: none;
@@ -263,6 +219,8 @@ nav.top-nav a {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 22px;
+  display: block;
+  width: 7%;
 }
 
 nav a:hover {
@@ -271,51 +229,21 @@ nav a:hover {
 }
 
 nav.top-nav .landing-link {
-  float: right;
   margin-right: 5%;
+  /* font-size: 200%; */
+  /* font-family: 'Times New Roman', Times, serif; */
+  color: rgba(255, 166, 0, 0.86);
 }
 
 /* FOOTER */
 footer {
   display: flex;
   align-items: end;
-  /* position: fixed; */
-  /* margin-top: 205%; */
-}
-
-#contact-container ul{
-  display: flex;
-  margin-top: 5%;
-  list-style-type: none;
+  margin-top: 20%;
+  margin-bottom: -10%;
 }
 
 
-.github-icon{
-  background-color: black;
-  padding: 10%;
- }
-
- .icon-1 {
-  size-adjust: 0%;
- } 
- 
- .linkedin-icon {
-   background-color: black;
-   padding: 10%;
- }
-
- .icon-2 {
-
- }
- 
- .email-icon {
-   background-color: black;
-   padding: 10%;
- }
-
- .icon-3 {
-
- }
 /* @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
