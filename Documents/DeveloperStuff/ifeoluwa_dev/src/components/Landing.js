@@ -17,8 +17,7 @@ const Landing = () => {
           </div>
           <div id='email'>
             <a href='mailto: ifeoluwa.akinremi.wade@gmail.com'><button>Contact me</button></a>
-          </div>
-          
+          </div>    
       </div>
     </div>
   )
