@@ -5,7 +5,6 @@ import Durante from '../Durante.png'
 const Projects = () => {
   return (
     <div id='project-container'>
-      <h1>Projects</h1>
       <section className='Flatiron'>
         <h2 className='project-video-heading'>Flatiron School Projects</h2>
         <p className='project-video-description'>The first video being my final project, and the third being  the first I've ever built; <br />you can see how my skills improved throughout the program, <br />and how my enthusiasm towards frontend development began to spark.</p>

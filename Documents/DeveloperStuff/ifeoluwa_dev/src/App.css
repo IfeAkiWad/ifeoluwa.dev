@@ -145,7 +145,7 @@ button:hover {
   overflow-y:hidden; 
   background-color: black;
   padding: 2%;
-  border-color: grey;
+  border-color: rgba(255, 166, 0, 0.86);
   border-style:outset;
 
 }
@@ -162,7 +162,7 @@ button:hover {
   white-space: wrap;
   align-self: center;
   line-height: 1.8;
-  border-style: inset;
+  /* border-style: inset; */
   border-color: rgba(255, 166, 0, 0.86);
 }
 
@@ -243,5 +243,5 @@ nav a:hover {
 
 nav.top-nav .landing-link {
   margin-right: 5%;
-  color: rgba(255, 166, 0, 0.86);
+  color: rgb(66, 110, 110);
 }
