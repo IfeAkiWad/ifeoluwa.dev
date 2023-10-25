@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ifeoluwa.dev/static/css/main.2bacd49c.css",
+    "main.css": "/ifeoluwa.dev/static/css/main.9bd4c1bc.css",
     "main.js": "/ifeoluwa.dev/static/js/main.51b032a5.js",
     "static/js/787.93b14332.chunk.js": "/ifeoluwa.dev/static/js/787.93b14332.chunk.js",
     "static/media/ifeoluwaDev.png": "/ifeoluwa.dev/static/media/ifeoluwaDev.79e44771302d1731c354.png",
@@ -9,12 +9,12 @@
     "static/media/i.png": "/ifeoluwa.dev/static/media/i.e379ec2213436fc4400f.png",
     "static/media/ResumePDF.pdf": "/ifeoluwa.dev/static/media/ResumePDF.3a0dc8774871b76e28d3.pdf",
     "index.html": "/ifeoluwa.dev/index.html",
-    "main.2bacd49c.css.map": "/ifeoluwa.dev/static/css/main.2bacd49c.css.map",
+    "main.9bd4c1bc.css.map": "/ifeoluwa.dev/static/css/main.9bd4c1bc.css.map",
     "main.51b032a5.js.map": "/ifeoluwa.dev/static/js/main.51b032a5.js.map",
     "787.93b14332.chunk.js.map": "/ifeoluwa.dev/static/js/787.93b14332.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2bacd49c.css",
+    "static/css/main.9bd4c1bc.css",
     "static/js/main.51b032a5.js"
   ]
 }
