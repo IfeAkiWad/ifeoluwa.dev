@@ -225,8 +225,8 @@ nav.top-nav {
 }
 
 nav.top-nav a {
-  float: right;
-  margin-left: 10%;
+  float:unset;
+  margin-left: 6%;
   color: white;
   text-align: center;
   padding: 14px 16px;
@@ -242,6 +242,7 @@ nav a:hover {
 }
 
 nav.top-nav .landing-link {
+  float: right;
   margin-right: 5%;
   color: rgb(66, 110, 110);
 }
